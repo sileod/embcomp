@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "embcomp"
-version = "0.1.0"
+version = "0.1.2"
 description = "Composition of embeddings"
 authors = ["Damien Sileo <damien.sileo@kuleuven.be>"]
 
