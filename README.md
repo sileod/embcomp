@@ -15,6 +15,7 @@ embcomp.cat([embcomp.complexprod, embcomp.abs])(x,y)
 ```
 
 This package provide helpers for composition of embeddings. I particularly recommend trying out embcomp.complexprod prod instead of embcomp.prod and embcomp.analogy instead of embcomp.absdiff for asymmetric tasks (e.g. natural language inference.).
+`prod` and `absdiff` are used in SentEval. However, they are not expressive enough to solve asymmetrical tasks. 
 
 ```bib
 @inproceedings{sileo-etal-2019-composition,
